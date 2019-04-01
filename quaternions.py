@@ -74,8 +74,8 @@ class Quaternion:
 
     def totb(self):
         """
-        Wrapper method of the quaternion2angle method from the 'quaternions.py' file
-        :return: A (roll, pitch, yaw) tuple corresponding to the euler angles - in radians -.
+        Wrapper method of the quaternion2tb method from the 'quaternions.py' file
+        :return: A (roll, pitch, yaw) tuple corresponding to the Tait-Bryan angles - in radians -.
         """
         angle = quaternion2tb(self.w, self.x, self.y, self.z)
         return angle
