@@ -1,5 +1,5 @@
 from math import sin, cos, acos, radians
-import quaternions as qt
+import quaternions.Quaternion as qt
 
 
 def gyro2quaternion(g_xyz, fs=60):
