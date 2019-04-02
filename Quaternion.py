@@ -178,7 +178,7 @@ def quaternion2tb(w, x, y, z):
     The coordinate system has:
         Roll axis pointing forward,
         Pitch axis pointing to the right and,
-        Yaw axis pointing downward
+        Yaw axis pointing upward
 
     Taken from https://math.stackexchange.com/questions/2975109/how-to-convert-euler-angles-to-quaternions-and-get-the-same-euler-angles-back-fr)
 
@@ -210,9 +210,9 @@ def tb2quaternion(yaw, pitch, roll):
 
     Taken from https://math.stackexchange.com/questions/2975109/how-to-convert-euler-angles-to-quaternions-and-get-the-same-euler-angles-back-fr)
 
-    :param yaw: Angle respective to the axis pointing downward
-    :param pitch: Angle respective to the axis pointing to the right
-    :param roll: Angle respective to the axis pointing forward
+    :param yaw: Angle respective to the axis pointing upward (z-axis)
+    :param pitch: Angle respective to the axis pointing to the right (y-axis)
+    :param roll: Angle respective to the axis pointing forward (x-axis)
     :return: A Quaternion object
     """
     cy = cos(yaw * 0.5)
