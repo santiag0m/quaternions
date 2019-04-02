@@ -16,9 +16,9 @@ However, some auxiliary functions and the 'Matrix' class won't be available. So 
 ```python
 import quaternions.Quaternion as qtn
 
-my_quaternion = qt.Quaternion(q_0, q_1, q_2, q_3)
+my_quaternion = qtn.Quaternion(q_0, q_1, q_2, q_3)
 
-my_matrix = qt.Matrix([[1, 2], [3, 4]])
+my_matrix = qtn.Matrix([[1, 2], [3, 4]])
 
 ```
 
