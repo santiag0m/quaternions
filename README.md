@@ -47,7 +47,7 @@ new_quaternion = my_quaternion.rotate(rot_quaternion)
 Or transform the rotation quaternion back to Tait-Bryan angles:
 
 ```python
-yaw, pitch, roll = rot_quaternion.totb
+yaw, pitch, roll = rot_quaternion.tb
 ```
 
 It must be noted that the coordinate axis used is the standard coordinate axis (x - forward, y - left, z - up) and rotation order is Z (yaw) -> Y (pitch) -> X (roll).
