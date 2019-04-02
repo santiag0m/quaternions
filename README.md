@@ -2,7 +2,7 @@
 
 This repository contains auxiliary functions for quaternion based motion tracking written entirely in base python.
 
-The base object 'Quaternion' can be imported directly using:
+The main object 'Quaternion' can be imported directly using:
 
 ```python
 from quaternions.Quaternion import Quaternion
