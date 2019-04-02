@@ -4,7 +4,7 @@ This repository contains auxiliary functions for quaternion based motion trackin
 
 The base object 'Quaternion' can be imported directly using:
 
-```
+```python
 from quaternions.Quaternion import Quaternion
 
 my_quaternion = Quaternion(q_0, q_1, q_2, q_3)
@@ -13,7 +13,7 @@ my_quaternion = Quaternion(q_0, q_1, q_2, q_3)
 
 However, some auxiliary functions and the 'Matrix' class won't be available. So it is recommended to import the library in the following way:
 
-```
+```python
 import quaternions.Quaternion as qtn
 
 my_quaternion = qt.Quaternion(q_0, q_1, q_2, q_3)
