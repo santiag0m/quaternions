@@ -72,7 +72,7 @@ class Quaternion:
     def components(self):
         return self.w, self.x, self.y, self.z
 
-    def totb(self):
+    def tb(self):
         """
         Wrapper method of the quaternion2tb method from the 'quaternions.py' file
         :return: A (roll, pitch, yaw) tuple corresponding to the Tait-Bryan angles - in radians -.
@@ -80,7 +80,7 @@ class Quaternion:
         angle = quaternion2tb(self.w, self.x, self.y, self.z)
         return angle
 
-    def toaa(self):
+    def aa(self):
         """
         Wrapper method of the quaternion2aa method from the 'quaternions.py' file
         :return: An (angle, axis) tuple - in radians -.
